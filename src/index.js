@@ -3,12 +3,6 @@ import Koa from "koa";
 
 var app = new Koa();
 
-// app.use(async (ctx, next) => {
-//     const start = new Date();
-//     await next();
-//     const ms = new Date() - start;
-//     console.log(`${ctx.method} ${ctx.url} - ${ms}ms`);
-// });
 
 // app.use((ctx, next) => {
 //   const start = new Date();
@@ -31,5 +25,6 @@ app.use(ctx => {
 });
 
 app.listen(3000);
+console.log(`app running at port 3000`);
 
 console.log("start at port 3000");
