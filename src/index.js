@@ -24,6 +24,10 @@ app.use(ctx => {
     ct.body = '123';
 });
 
+app.use("/index", (ctx, next) => {
+  ctx.body = 'aaaaa';
+})
+
 app.listen(3000);
 console.log(`app running at port 3000`);
 
