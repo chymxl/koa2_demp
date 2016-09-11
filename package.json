@@ -15,6 +15,8 @@
     "babel-preset-es2015-node6": "^0.3.0",
     "babel-preset-stage-3": "^6.11.0",
     "eslint": "^3.5.0",
-    "koa": "^2.0.0-alpha.7"
+    "koa": "^2.0.0-alpha.7",
+    "koa-bodyparser": "^3.2.0",
+    "koa-router": "^7.0.1"
   }
 }
